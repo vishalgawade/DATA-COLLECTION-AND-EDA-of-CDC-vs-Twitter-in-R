@@ -1,0 +1,13 @@
+name: part3
+title: part3
+username:
+account: vishalgawade
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 859049
+bundleId: 2004761
+url: https://vishalgawade.shinyapps.io/part3/
+when: 1555029575.71046
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: cdc_vs_twitter_flu.png|cdc_vs_twitter_sneezing.png|cdc_vs_twitter.png|Shiny_new.ipynb|vgawadePart3.ipynb|.ipynb_checkpoints/cdc_vs_twitter-checkpoint.ipynb|.ipynb_checkpoints/crawl_tweets-checkpoint.ipynb|.ipynb_checkpoints/Shiny_new-checkpoint.ipynb|.ipynb_checkpoints/vgawadePart3-checkpoint.ipynb

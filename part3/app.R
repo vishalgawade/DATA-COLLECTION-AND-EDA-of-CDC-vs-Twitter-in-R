@@ -20,7 +20,7 @@ library(maps)
 library(sp)
 library(maptools)
 library(ggmap)
-register_google(key = "AIzaSyBcudY08pJqUuQUuESkxY0nCL3MiQ0tQzI") 
+register_google(key = "ur key here") 
 #get state names from state abrrevation
 getStateName <- function(abbrv){
   ab    <- tolower(c("AL",
@@ -78,7 +78,7 @@ tweet_count$state<-tweet_count$states
 #ggtitle("2018-19 Influenza Season Week 7 ending Feb 16, 2019")+
 twitter<-plot_usmap(data = tweet_count, values = "Freq", lines = "black") + 
   scale_fill_continuous(
-    low = "green", high = "red", name = "ILI Activity Level", label = scales::comma
+    low = "green", high = "red", name = "Tweet Count", label = scales::comma
   ) + 
   # labs(title = "2018-19 Influenza Season Week 4 ending Jan 26, 2019") + 
   theme(legend.position = "right")
@@ -110,7 +110,7 @@ tweet_countSneeze$state<-tweet_countSneeze$states
 #ggtitle("2018-19 Influenza Season Week 7 ending Feb 16, 2019")+
 twitterSneeze<-plot_usmap(data = tweet_countSneeze, values = "Freq", lines = "black") + 
   scale_fill_continuous(
-    low = "green", high = "red", name = "ILI Activity Level", label = scales::comma
+    low = "green", high = "red", name = "Tweet Count", label = scales::comma
   ) + 
   # labs(title = "2018-19 Influenza Season Week 4 ending Jan 26, 2019") + 
   theme(legend.position = "right")
@@ -130,7 +130,7 @@ tweet_count=data.frame(tweet_countFlu)
 tweet_countFlu$state<-tweet_countFlu$states
 twitterFlu<-plot_usmap(data = tweet_countFlu, values = "Freq", lines = "black") + 
   scale_fill_continuous(
-    low = "green", high = "red", name = "ILI Activity Level", label = scales::comma
+    low = "green", high = "red", name = "Tweet Count", label = scales::comma
   ) + 
   # labs(title = "2018-19 Influenza Season Week 4 ending Jan 26, 2019") + 
   theme(legend.position = "right")
