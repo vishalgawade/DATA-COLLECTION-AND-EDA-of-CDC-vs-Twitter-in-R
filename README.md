@@ -9,4 +9,4 @@
 
 ##### Link to Analysis
 ---
-[!CDC vs Twitter Analysis on Shiny IO](https://vishalgawade.shinyapps.io/DIC_Lab1/)
+[CDC vs Twitter Analysis on Shiny IO](https://vishalgawade.shinyapps.io/DIC_Lab1/)
